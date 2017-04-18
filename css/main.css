@@ -1,0 +1,42 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #2d3c49;
+  font-weight: 400;
+}
+
+hr {
+  border: 2px solid;
+  box-shadow: 0 0 1px #000000
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.title-super {
+  font-size: 4em;
+}
+
+.title-large {
+  font-size: 3em;
+}
+
+.title-medium {
+  font-size: 1.5em;
+}
+
+.logo {
+  height: 5em;
+  width: 5em;
+  fill: #02b3e4;
+  margin-top: 2em;
+}
