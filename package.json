@@ -1,0 +1,29 @@
+{
+  "name": "portfolio_project",
+  "version": "1.0.0",
+  "description": "Website portfolio of projects I've worked on",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlinePseudonym/portfolio_project.git"
+  },
+  "author": "Kevin Reynolds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnlinePseudonym/portfolio_project/issues"
+  },
+  "homepage": "https://github.com/OnlinePseudonym/portfolio_project#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^1.10.1"
+  }
+}
