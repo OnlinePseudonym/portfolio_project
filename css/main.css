@@ -13,9 +13,12 @@ body {
   font-weight: 400;
 }
 
-hr {
-  border: 2px solid;
-  box-shadow: 0 0 1px #000
+.hr-rule {
+  border-bottom: 4px solid #7d97ad;
+  margin-bottom: 2em;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
