@@ -3,15 +3,19 @@
   margin: 0 auto;
 }
 
+.project {
+  margin-bottom: 5em;
+}
+
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #2d3c49;
   font-weight: 400;
 }
 
 hr {
   border: 2px solid;
-  box-shadow: 0 0 1px #000000
+  box-shadow: 0 0 1px #000
 }
 
 img {
@@ -31,7 +35,7 @@ img {
 }
 
 .title-large {
-  font-size: 1em;
+  font-size: 3em;
 }
 
 .title-medium {

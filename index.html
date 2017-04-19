@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
   <div class="container">
@@ -51,38 +54,110 @@
       </div>
     </div>
     <div class="projects row text-center">
-      <div class="fresh_tomatoes col-md-4">
-        <picture>
+      <div class="project col-md-4">
+        <picture class="project_image">
           <source
             srcset="images/fresh_tomatoes-720_large_1x.jpg 1x images/fresh_tomatoes-1440_large_2x.jpg 2x">
           <source
             srcset="images/fresh_tomatoes-360_small_1x.jpg 1x images/fresh_tomatoes-720_large_2x.jpg 2x">
-          <img src="images/fresh_tomatoes-1440_large_2x.jpg" class="img-responsive" alt="Website with popup movie trailer">
+          <img src="images/fresh_tomatoes-1440_large_2x.jpg" class="img-responsive" data-toggle="modal" data-target="#project1" alt="Website with popup movie trailer">
         </picture>
         <h3 class="text-uppercase title-large">Fresh Tomatoes</h3>
         <a href="https://github.com/OnlinePseudonym/fresh_tomatoes/">GitHub link</a>
       </div>
-      <div class="trading_card col-md-4">
-        <picture>
+      <div class="project col-md-4">
+        <picture class="project_image">
           <source
             srcset="images/trading_card-720_large_1x.jpg 1x images/trading_card-1440_large_2x.jpg 2x">
           <source
             srcset="images/trading_card-360_small_1x.jpg 1x images/trading_card-720_large_2x.jpg 2x">
-          <img src="images/trading_card-1440_large_2x.jpg" class="img-responsive" alt="Trading card of animal">
+          <img src="images/trading_card-1440_large_2x.jpg" class="img-responsive" data-toggle="modal" data-target="#project2" alt="Trading card of animal">
         </picture>
         <h3 class="text-uppercase title-large">Trading Cards</h3>
         <a href="https://github.com/OnlinePseudonym/fend-animal-trading-cards-master/">GitHub link</a>
       </div>
-      <div class="mockup col-md-4">
-        <picture>
+      <div class="project col-md-4">
+        <picture class="project_image">
           <source
             srcset="images/mockup-720_large_1x.jpg 1x images/mockup-1440_large_2x.jpg 2x">
           <source
             srcset="images/mockup-360_small_1x.jpg 1x images/mockup-720_large_2x.jpg 2x">
-          <img src="images/mockup-1440_large_2x.jpg" class="img-responsive" alt="Website with popup movie trailer">
+          <img src="images/mockup-1440_large_2x.jpg" class="img-responsive" data-toggle="modal" data-target="#project3" alt="Website with popup movie trailer">
         </picture>
         <h3 class="text-uppercase title-large">First Mockup</h3>
         <a href="https://github.com/OnlinePseudonym/mockup_to_article/">GitHub link</a>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Fresh Tomatoes</h4>
+        </div>
+        <div class="modal-body">
+          <picture class="project_image">
+            <source
+              srcset="images/fresh_tomatoes-720_large_1x.jpg 1x images/fresh_tomatoes-1440_large_2x.jpg 2x">
+            <source
+              srcset="images/fresh_tomatoes-360_small_1x.jpg 1x images/fresh_tomatoes-720_large_2x.jpg 2x">
+            <img src="images/fresh_tomatoes-1440_large_2x.jpg" class="img-responsive" data-toggle="modal" data-target="#project1" alt="Website with popup movie trailer">
+          </picture>
+          This was my favorite project in the Intro to Programming Nanodegree. It introduced me javascript and modals,
+          it showed me how powerful programming could be, with a relatively small amount of code I was able to build
+          something powerful and interesting!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Trading Card</h4>
+        </div>
+        <div class="modal-body">
+          <picture class="project_image">
+            <source
+              srcset="images/trading_card-720_large_1x.jpg 1x images/trading_card-1440_large_2x.jpg 2x">
+            <source
+              srcset="images/trading_card-360_small_1x.jpg 1x images/trading_card-720_large_2x.jpg 2x">
+            <img src="images/trading_card-1440_large_2x.jpg" class="img-responsive" data-toggle="modal" data-target="#project2" alt="Trading card of animal">
+          </picture>
+          In this trading card app I learned a lot about proper spacing and playing with margins/padding to get the
+          desired look. It was a helpful project to understand the importance of documentation and opened my eyes to
+          just how much information is out there!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">First Mockup</h4>
+        </div>
+        <div class="modal-body">
+          <picture class="project_image">
+            <source
+              srcset="images/mockup-720_large_1x.jpg 1x images/mockup-1440_large_2x.jpg 2x">
+            <source
+              srcset="images/mockup-360_small_1x.jpg 1x images/mockup-720_large_2x.jpg 2x">
+            <img src="images/mockup-1440_large_2x.jpg" class="img-responsive" data-toggle="modal" data-target="#project3" alt="Website with popup movie trailer">
+          </picture>
+          This was the first mockup I completed, it was interesting to see just how much formatting went into creating
+          even simple websites. It helped me to realize how important the small details were when developing for
+          someone else.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
