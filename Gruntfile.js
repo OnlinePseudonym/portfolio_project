@@ -1,14 +1,29 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
-    responive_images: {
+    responsive_images: {
       dev: {
         options: {
           engine: 'im',
           sizes: [{
-            width:
-            suggix:
-            quality:
+            width: 1920,
+            suffix: '_large_2x',
+            quality: 50
+          },
+          {
+            width: 960,
+            suffix: '_large_1x',
+            quality: 75
+          },
+          {
+            width: 840,
+            suffix: '_small_2x',
+            quality: 75
+          },
+          {
+            width: 420,
+            suffix: '_small_1x',
+            quality: 75
           }]
         },
         files: [{
