@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   grunt.initConfig({
     responsive_images: {
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
     clean: {
       dev: {
         src: ['images']
-      },
+      }
     },
 
     /* Generate the images directory if it is missing */
